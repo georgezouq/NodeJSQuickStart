@@ -1,0 +1,21 @@
+{
+  "name": "nodequickstart",
+  "version": "0.0.1",
+  "description": "Anyway",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm help"
+  },
+  "author": "GeorgeZou",
+  "license": "MIT",
+  "bin": {
+    "nqst": "./bin/nqst"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "express": "^4.14.0",
+    "markdown-it": "^6.1.0",
+    "serve-static": "^1.11.1",
+    "swig": "^1.4.2"
+  }
+}
